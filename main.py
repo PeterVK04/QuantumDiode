@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt
 import time
 
 # Parameters
-M = 11; J = 1.0
+M = 11 # number of unit cells (resonators couplings)
+J = 1.0 # coupling strength
 lams = np.linspace(0, 1, 21)
 taus = np.logspace(1, 3, 20)
 time_steps = 200  # increase for accuracy
